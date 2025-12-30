@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <%- include('./partials/_head', { isDeep: true }) %>
+  <title id="p-page-title">Loading...</title>
+</head>
+<body>
+  <div class="container">
+    <%- include('./partials/_sidebar', { isDeep: true, page: 'works' }) %>
+    <main class="content">
+      <article class="project-detail fade-in">
+        <%- include('./partials/_project-header') %>
+        <%- include('./partials/_project-hero-layout') %>
+        <%- include('./partials/_project-body') %>
+        <%- include('./partials/_back-link') %>
+      </article>
+      <%- include('./partials/_modal') %>
+      <%- include('./partials/_mobile-footer') %>
+    </main>
+  </div>
+  <script type="module" src="../src/js/script.js"></script>
+</body>
+</html>
