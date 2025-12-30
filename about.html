@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <%- include('./partials/_head', { isDeep: false }) %>
+  <title>About | monoscape-craft</title>
+</head>
+<body>
+  <div class="container">
+    <%- include('./partials/_sidebar', { isDeep: false, page: 'about' }) %>
+    
+    <main class="content">
+      <article class="project-detail fade-in">
+        <header class="project-header">
+          <h2 class="page-title">About</h2>
+        </header>
+
+        <div class="hero-layout">
+          <div class="project-hero">
+            <div class="profile-text">
+              <!-- <h3 style="font-size: 1.5rem; margin-bottom: 5px;">kanae</h3> -->
+              <p class="job-title">Front-end Engineer / Web Designer</p>
+              
+              <div class="description-section" style="margin-top: 30px;">
+                <h3>Overview</h3>
+                <p>
+                  Webデザイナーから始まったキャリアは、約10年のフリーランス期間を経て、現在はフロントエンドエンジニアへと深化しました。私のクリエイティブの核にあるのは、「デザインと実装を分断させない」という意識です。<br>
+                  これまで、多様な業界のUI設計・実装・運用に携わり、大規模プロジェクトにおけるデザインシステムの刷新やBFF連携など、テクニカルな領域も数多く経験してきました。職種の垣根を超えた環境で研鑽を積んできたからこそ、デザイナー・エンジニア・ディレクター、それぞれの視点を持ち合わせていることが私の最大の武器となっています。<br>
+                  美しいビジュアルが、そのまま美しく動くこと。そして、その品質が誰の手によっても維持され続けること。monoscape-craft という名の通り、独自の視点で「物（Mono）」を捉え、精緻な「技（Craft）」で形にする、職人としての誠実なものづくりを追求しています。
+                </p>
+              </div>
+
+              <div class="description-section">
+                <h3>Skills</h3>
+                <div class="skills-table-container">
+                  <table class="skills-table">
+                    <tbody>
+                      <tr>
+                        <th>Languages / Markup</th>
+                        <td>HTML5, CSS3 / Sass (SCSS), JavaScript, TypeScript, Pug</td>
+                      </tr>
+                      <tr>
+                        <th>Frameworks / Lib</th>
+                        <td>React, Styled-components, Bootstrap, GSAP</td>
+                      </tr>
+                      <tr>
+                        <th>Development Tools</th>
+                        <td>Vite, Webpack, ESLint, Prettier, npm, yarn</td>
+                      </tr>
+                      <tr>
+                        <th>Design / UI Tools</th>
+                        <td>Figma(Design review & slice), Photoshop, Illustrator, After Effects</td>
+                      </tr>
+                      <tr>
+                        <th>Version / Project Control</th>
+                        <td>GitHub, Jira, Confluence, Notion, Google Workspace</td>
+                      </tr>
+                      <tr>
+                        <th>Other Specialties</th>
+                        <td>API Data Handling, Chrome Extension Development, Windows / Mac Cross-platform</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <%- include('./partials/_mobile-footer') %>
+    </main>
+  </div>
+  <script type="module" src="./src/js/script.js"></script>
+</body>
+</html>

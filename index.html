@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <%- include('./partials/_head', { isDeep: false }) %>
+  <title>Portfolio | monoscape-craft</title>
+</head>
+<body>
+  <%- include('./partials/_opening') %>
+  <div class="container">
+    <%- include('./partials/_sidebar', { isDeep: false, page: 'top' }) %>
+    <main class="content">
+      <section class="works-grid" id="worksGrid">
+      </section>
+      <%- include('./partials/_mobile-footer') %>
+    </main>
+  </div>
+  <script type="module" src="./src/js/main.js"></script>
+  <script type="module" src="./src/js/script.js"></script>
+</body>
+</html>

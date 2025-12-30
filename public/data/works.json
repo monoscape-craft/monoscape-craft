@@ -1,0 +1,319 @@
+{
+  "worksData": [
+    {
+      "id": "aigra",
+      "file": "thumb_aigra.jpg",
+      "title": "画像配信コンテンツサイト販促バナー制作",
+      "category": "Web Graphics / Promotion Banner"
+    },
+    {
+      "id": "banner-archive",
+      "file": "thumb_banner-archive.jpg",
+      "title": "アーティストバナー制作アーカイブ",
+      "category": "Web Graphics / Link Banner & Promotion Banner"
+    },
+    {
+      "id": "boatpier-miyaki",
+      "file": "thumb_boatpier-miyaki.jpg",
+      "title": "ボートレースチケットショップサイト制作",
+      "category": "Web Development"
+    },
+    {
+      "id": "deep",
+      "file": "thumb_deep.mp4",
+      "title": "アーティスト販促ムービー",
+      "category": "Motion Graphics"
+    },
+    {
+      "id": "dfh",
+      "file": "thumb_dfh.jpg",
+      "title": "ヘアサロンサイト制作",
+      "category": "Web Development"
+    },
+    {
+      "id": "exilecup",
+      "file": "thumb_exilecup.jpg",
+      "title": "フットサル大会サイト制作",
+      "category": "Web Development"
+    },
+    {
+      "id": "gekidan-hana",
+      "file": "thumb_gekidan-hana.mp4",
+      "title": "アーティスト販促ムービー",
+      "category": "Motion Graphics"
+    },
+    {
+      "id": "gstage",
+      "file": "thumb_gstage.jpg",
+      "title": "企業ロゴ制作",
+      "category": "Logo Design"
+    },
+    {
+      "id": "happiness",
+      "file": "thumb_happiness.mp4",
+      "title": "アーティスト販促ムービー",
+      "category": "Motion Graphics"
+    },
+    {
+      "id": "love01",
+      "file": "thumb_love01.mp4",
+      "title": "アーティスト販促ムービー",
+      "category": "Motion Graphics"
+    },
+    {
+      "id": "love02",
+      "file": "thumb_love02.mp4",
+      "title": "アーティスト販促ムービー",
+      "category": "Motion Graphics"
+    },
+    {
+      "id": "mugir-new",
+      "file": "thumb_mugir-new.jpg",
+      "title": "ヘアサロンサイト制作",
+      "category": "Web Development"
+    },
+    {
+      "id": "mugir",
+      "file": "thumb_mugir.jpg",
+      "title": "ヘアサロンサイト制作",
+      "category": "Web Development"
+    },
+    {
+      "id": "skullcute",
+      "file": "thumb_skullcute.jpg",
+      "title": "企業ロゴ制作",
+      "category": "Logo Design"
+    },
+    {
+      "id": "the_rootless01",
+      "file": "thumb_the_rootless01.mp4",
+      "title": "アーティスト販促ムービー",
+      "category": "Motion Graphics"
+    },
+    {
+      "id": "the_rootless02",
+      "file": "thumb_the_rootless02.mp4",
+      "title": "アーティスト販促ムービー",
+      "category": "Motion Graphics"
+    },
+    {
+      "id": "wine",
+      "file": "thumb_wine.jpg",
+      "title": "企業ロゴ制作",
+      "category": "Logo Design"
+    }
+  ],
+  "projectDetails": {
+    "aigra": {
+      "year": "2008-2009",
+      "role": "Visual Design / Layout / Retouching",
+      "duration": "1day-3day",
+      "tools": "Illustrator / Photoshop",
+      "concept": "1ヶ月毎日新しい画像を提供する「月額有料配信サービス」のプロモーションバナーです。<br>魅力的な画像が「豊富に存在する」ことを一目で認識させ、「他にも見たい」「次はどんな画像が来るのか」という期待感を持ってもらうことで購買意欲の喚起をさせることを意識して制作しています。<br>配信コンテンツの最大の強みである「画像のバリエーション」を伝えるため、複数のカットをリズミカルに配置するコラージュ手法を多く使用しています。<br>情報量が多くなるため、視線誘導を損なわない強弱のあるレイアウトで全体を構築しました。",
+      "details": [
+        "details_aigra-kosaka.jpg",
+        "details_aigra-nishimura.jpg",
+        "details_aigra-ririan.jpg",
+        "details_aigra-tani.jpg",
+        "details_aigra-yoshizawa.jpg"
+      ],
+      "additionalComments": "こちらに掲載している制作物は一部となります。この他にもご覧になりたい場合は、コンタクトよりお気軽にお声がけいただけますと幸いです。"
+    },
+    "banner-archive": {
+      "year": "2009-2012",
+      "role": "Visual Design / Layout",
+      "duration": "1day-2day",
+      "tools": "Illustrator / Photoshop",
+      "concept": "同一ページ内にサイズや内容の異なるバナーが20〜30本近く並ぶサイト構成であったため、ユーザーを飽きさせない視覚的なリズムと、情報の整理を最優先に制作しました。<br>各アーティストやコンテンツが持つ固有の世界観を尊重しつつ、背景画像の合成やレタッチを一枚ずつ丁寧に行うことで、それぞれの個性が際立つデザインを追求しています。<br>多数のバナーが混在する中でも、個々のクオリティを維持しながら、似通った印象にならないようレイアウトや配色に細心の注意を払いました。同時に、サイト全体のトーン＆マナーを壊さないバランスを保つことで、高い視認性を両立させています。",
+      "details": [
+        "banner_akiyama.jpg",
+        "banner_deep.jpg",
+        "banner_dream01.jpg",
+        "banner_dream02.jpg",
+        "banner_egirls_half.jpg",
+        "banner_exile_album01.jpg",
+        "banner_exile_album02.jpg",
+        "banner_exile_album03.jpg",
+        "banner_exile_album04.jpg",
+        "banner_exile.jpg",
+        "banner_flower.jpg",
+        "banner_happiness01.jpg",
+        "banner_happiness02.jpg",
+        "banner_jonte.jpg",
+        "banner_jsoul_big.jpg",
+        "banner_jsoul01.jpg",
+        "banner_jsoul02.jpg",
+        "banner_jsoul03.jpg",
+        "banner_ldh.jpg",
+        "banner_love.jpg",
+        "banner_mizuhara.jpg",
+        "banner_the_rootless.jpg"
+      ],
+      "additionalComments": "こちらに掲載している制作物は一部となります。この他にもご覧になりたい場合は、コンタクトよりお気軽にお声がけいただけますと幸いです。"
+    },
+    "boatpier-miyaki": {
+      "year": "2013",
+      "role": "Web Design / Frontend / Development",
+      "duration": "4week",
+      "tools": "HTML / CSS / JavaScript / Illustrator / Photoshop",
+      "concept": "2010年の開設当初より、幅広い年齢層のユーザーが利用することを想定し、「迷わせない・親しみやすい」インターフェースの構築に注力しました。 特に施設ガイドページにおいては、地図上の各エリアにカーソルを合わせるだけで、対応する説明画像と詳細テキストが即座に表示されるインタラクティブな仕掛けを導入。複雑な操作を排し、直感的に施設内を把握できる親切設計を追求しました。 また、制作当時は限られた素材での構築となりましたが、提供いただいた写真を一枚ずつ丁寧にレタッチ・補正することで、手作り感の中にも清潔感と信頼性が共存するビジュアルへと仕上げています。 「初めて訪れる方でも、Web上で擬似的に施設を体験できること」を最優先に考え、細部までホスピタリティを詰め込んだサイト設計を行いました。",
+      "details": [
+        "ssmovie_boatpier-miyaki.mp4",
+        "details_boatpier-miyaki-access.jpg",
+        "details_boatpier-miyaki-guide.jpg",
+        "details_boatpier-miyaki-seat.jpg"
+      ],
+      "additionalComments": ""
+    },
+    "deep": {
+      "year": "2011",
+      "role": "Art Direction / Illustration / Motion Graphics",
+      "duration": "2day-4day",
+      "tools": "After Effect / Illustrator / Photoshop",
+      "concept": "こちらのアイテムは、サイトのTOPページ内で唯一「動き」を表現できるものであり、静止画よりも注目を集めやすく広告効果が高いアイテムであるため、いかにユーザーの視線を向けられるかを意識して制作しています。<br>また、約30秒という尺でも飽きさせないよう、単調な展開を避け最後まで見てもらう工夫を施しています。<br>楽曲の使用は制限があり音楽は流せませんでしたが、ご共有頂けるアーティスト写真とジャケット写真から、曲調に合わせた最適なビデオコンセプトを組み立てて30秒の動画に仕上げています。<br>バラードの楽曲紹介ムービーの場合はゆっくりと、デビューして間もない場合はアーティスト名も紹介するなど都度アーティストの背景に合わせた構成を心がけています。",
+      "details": [],
+      "additionalComments": ""
+    },
+    "dfh": {
+      "year": "2014",
+      "role": "Web Design / Frontend / Development",
+      "duration": "2week",
+      "tools": "HTML / CSS / Bootstrap / JavaScript / Illustrator / Photoshop",
+      "concept": "「必要最低限の情報のみを掲載し、スッキリとさせたい」というクライアント様のご要望を受け、情報の密度を精査したシングルページデザインを提案しました。 読む箇所が少ないシングルページは離脱が早まる傾向にありますが、スクロールごとにアニメーションを連動させることで、最後まで飽きさせない視覚的な工夫を施しています。 また、新規オープンに伴い「店舗の外観を強く認知してほしい」というご希望を叶えるべく、ファーストビュー全体に店舗イメージとロゴを大胆に配置し、記憶に残るインパクトを追求しました。 制作コストを可能な限り抑えたいというご要望に対しては、アイコンフォントの活用やCSS3による画像装飾で対応。パーツ作成の工程を最小限に留めつつも、デザインの質を落とさない効率的な設計に仕上げました。",
+      "details": [
+        "ssmovie_dfh.mp4"
+      ],
+      "additionalComments": ""
+    },
+    "exilecup": {
+      "year": "2011",
+      "role": "Web Design / Frontend / Development",
+      "duration": "3week",
+      "tools": "HTML / CSS / JavaScript / Illustrator / Photoshop",
+      "concept": "「一時的な企画で終わらせたくない」というクライアント様のご要望を受け、長期間にわたって運用し続けられる普遍性の高いサイト制作を心掛けました。 ターゲットが小学校4年生〜6年生であるため、子供っぽくなりすぎず、かつ大人びすぎない絶妙なバランスのデザインを目指しています。 また、ユーザーが迷わないよう階層を複雑にせず、丸みを帯びたフォントを採用することで、情報の探しやすさと読みやすさを両立させる設計にしました。 トップページには、当時まだ主流ではなかった「背景に1枚絵を大きく配置する」手法をいち早く取り入れ、一目で大会の熱量が伝わるインパクトのあるビジュアルに仕上げています。 結果として、制作から8年が経過した2018年時点でも、当時のデザインのまま大切に使い続けていただける、持続性の高いサイトとなりました。",
+      "details": [
+        "details_exilecup-about.jpg",
+        "details_exilecup-news.jpg"
+      ],
+      "additionalComments": ""
+    },
+    "gekidan-hana": {
+      "year": "2010",
+      "role": "Art Direction / Illustration / Motion Graphics",
+      "duration": "2day-4day",
+      "tools": "After Effect / Illustrator / Photoshop",
+      "concept": "こちらのアイテムは、サイトのTOPページ内で唯一「動き」を表現できるものであり、静止画よりも注目を集めやすく広告効果が高いアイテムであるため、いかにユーザーの視線を向けられるかを意識して制作しています。<br>また、約30秒という尺でも飽きさせないよう、単調な展開を避け最後まで見てもらう工夫を施しています。<br>楽曲の使用は制限があり音楽は流せませんでしたが、ご共有頂けるアーティスト写真とジャケット写真から、曲調に合わせた最適なビデオコンセプトを組み立てて30秒の動画に仕上げています。<br>バラードの楽曲紹介ムービーの場合はゆっくりと、デビューして間もない場合はアーティスト名も紹介するなど都度アーティストの背景に合わせた構成を心がけています。",
+      "details": [],
+      "additionalComments": ""
+    },
+    "gstage": {
+      "year": "2016",
+      "role": "Logo Design",
+      "duration": "4day",
+      "tools": "Illustrator",
+      "concept": "サッカー場の芝生管理等を手掛ける会社様の新規事業立ち上げに際し、そのアイデンティティを象徴するロゴマークを制作しました。 シンボルマークには、サッカーボールやゴールネットの構造に登場する「六角形」をベースとして採用し、一目で業種を想起させる工夫を施しています。 さらに、この六角形には風水において「安定と調和」という意味があることから、風水を大切にされているオーナー様への、事業の成功と末永い安定を願う祝辞の意を込めて設計しました。 ブランド名である「G」と「S」を六角形のラインの中に美しく融合させることで、幾何学的かつモダンな印象を与え、信頼感とプロフェッショナリズムを体現するデザインに仕上げています。",
+      "details": [
+        "details_gstage.jpg"
+      ],
+      "additionalComments": ""
+    },
+    "happiness": {
+      "year": "2011",
+      "role": "Art Direction / Illustration / Motion Graphics",
+      "duration": "2day-4day",
+      "tools": "After Effect / Illustrator / Photoshop",
+      "concept": "こちらのアイテムは、サイトのTOPページ内で唯一「動き」を表現できるものであり、静止画よりも注目を集めやすく広告効果が高いアイテムであるため、いかにユーザーの視線を向けられるかを意識して制作しています。<br>また、約30秒という尺でも飽きさせないよう、単調な展開を避け最後まで見てもらう工夫を施しています。<br>楽曲の使用は制限があり音楽は流せませんでしたが、ご共有頂けるアーティスト写真とジャケット写真から、曲調に合わせた最適なビデオコンセプトを組み立てて30秒の動画に仕上げています。<br>バラードの楽曲紹介ムービーの場合はゆっくりと、デビューして間もない場合はアーティスト名も紹介するなど都度アーティストの背景に合わせた構成を心がけています。",
+      "details": [],
+      "additionalComments": ""
+    },
+    "love01": {
+      "year": "2011",
+      "role": "Art Direction / Illustration / Motion Graphics",
+      "duration": "2day-4day",
+      "tools": "After Effect / Illustrator / Photoshop",
+      "concept": "こちらのアイテムは、サイトのTOPページ内で唯一「動き」を表現できるものであり、静止画よりも注目を集めやすく広告効果が高いアイテムであるため、いかにユーザーの視線を向けられるかを意識して制作しています。<br>また、約30秒という尺でも飽きさせないよう、単調な展開を避け最後まで見てもらう工夫を施しています。<br>楽曲の使用は制限があり音楽は流せませんでしたが、ご共有頂けるアーティスト写真とジャケット写真から、曲調に合わせた最適なビデオコンセプトを組み立てて30秒の動画に仕上げています。<br>バラードの楽曲紹介ムービーの場合はゆっくりと、デビューして間もない場合はアーティスト名も紹介するなど都度アーティストの背景に合わせた構成を心がけています。",
+      "details": [],
+      "additionalComments": ""
+    },
+    "love02": {
+      "year": "2010",
+      "role": "Art Direction / Illustration / Motion Graphics",
+      "duration": "2day-4day",
+      "tools": "After Effect / Illustrator / Photoshop",
+      "concept": "こちらのアイテムは、サイトのTOPページ内で唯一「動き」を表現できるものであり、静止画よりも注目を集めやすく広告効果が高いアイテムであるため、いかにユーザーの視線を向けられるかを意識して制作しています。<br>また、約30秒という尺でも飽きさせないよう、単調な展開を避け最後まで見てもらう工夫を施しています。<br>楽曲の使用は制限があり音楽は流せませんでしたが、ご共有頂けるアーティスト写真とジャケット写真から、曲調に合わせた最適なビデオコンセプトを組み立てて30秒の動画に仕上げています。<br>バラードの楽曲紹介ムービーの場合はゆっくりと、デビューして間もない場合はアーティスト名も紹介するなど都度アーティストの背景に合わせた構成を心がけています。",
+      "details": [],
+      "additionalComments": ""
+    },
+    "mugir-new": {
+      "year": "2012",
+      "role": "Web Design / Frontend / Development",
+      "duration": "3week",
+      "tools": "HTML / CSS / JavaScript / Illustrator / Photoshop",
+      "concept": "店舗改装によりスタイリッシュな雰囲気に生まれ変わった実店舗に合わせ、サイト全体を洗練されたモダンなデザインへとリニューアルしました。 制作当時、まだ主流ではなかった「レスポンシブデザイン」をいち早く採用することで、スマートフォンユーザーの取り込みを強化し、幅広いデバイスからのアクセスに対応しています。 また、既存サイトの課題であった直帰率の改善に向け、アニメーションで写真を動的に並べ替えられるスタイルギャラリーを設置しました。 単なる情報収集だけでなく、ユーザーがページ内で視覚的に楽しみながらサロンの世界観に触れられる仕掛けを施すことで、サイトへの定着率を高める設計としています。",
+      "details": [
+        "ssmovie_mugir-new.mp4",
+        "details_mugir-new-postcard-thanks.jpg",
+        "details_mugir-new-postcard-6th.jpg",
+        "details_mugir-ticket.jpg",
+        "details_mugir-new-menu.jpg",
+        "details_mugir-new-recruit.jpg",
+        "details_mugir-new-style.jpg"
+      ],
+      "additionalComments": ""
+    },
+    "mugir": {
+      "year": "2009",
+      "role": "Web Design / Frontend / Development",
+      "duration": "3week",
+      "tools": "HTML / CSS / JavaScript / Illustrator / Photoshop",
+      "concept": "店内に溢れる印象的な植物の雰囲気と、オーナー様の自由で遊び心のあるお人柄をWeb上で表現することをコンセプトとしています。 Webデザインの定石である規則的な配置にあえて拘らず、写真やハサミなどのモチーフを自由にレイアウトした「スクラップブック」のような構成にすることで、サロンの持つ温かみとワクワク感を演出しました。 改修前の課題であった直帰率の改善に向け、TOPページには自動の画像切り替えを導入したり、メニューのホバー時にロールオーバーの効果を持たせるなど、ユーザーが楽しみながら長く滞在してくれるような施策を随所に施しています。",
+      "details": [
+        "details_mugir-footer.jpg",
+        "details_mugir-bacio.jpg",
+        "details_mugir-info.jpg",
+        "details_mugir-menu.jpg"
+      ],
+      "additionalComments": ""
+    },
+    "skullcute": {
+      "year": "2014",
+      "role": "Logo Design",
+      "duration": "3day",
+      "tools": "Illustrator",
+      "concept": "30〜40代の大人の女性をターゲットに、「強さと愛らしさが共存するアイデンティティ」の構築を目指して制作しました。 クライアント様のご要望である「可愛いドクロをメインキャラクターに使用」「高級感のあるタイポグラフィ」「品格を感じさせるゴールドを使用」ということを主軸に置きつつ、ターゲット層に響く優雅さを表現しています。<br>シンボルとなるドクロのデザインは、睫毛を強調したチャーミングな表情に、植物を思わせる装飾を組み合わせることで、「髑髏」というモチーフが持つ毒気を「優雅で大人可愛い」ニュアンスへと変換しました。<br>タイポグラフィにおいては、ブランド名の「ト」をあえて小さくリサイズすることで、視覚的に「Qト=Cute」を連想させる遊び心あるギミックを施しました。<br>ドクロの可愛らしさと高級な欧文フォントという相反する要素を調和させるため、カタカナ部分にはあえて柔らかなフォルムのフォントを配し、全体が自然に馴染むよう細部まで計算して設計しています。",
+      "details": [
+        "details_skullcute.jpg"
+      ],
+      "additionalComments": ""
+    },
+    "the_rootless01": {
+      "year": "2010",
+      "role": "Art Direction / Illustration / Motion Graphics",
+      "duration": "2day-4day",
+      "tools": "After Effect / Illustrator / Photoshop",
+      "concept": "こちらのアイテムは、サイトのTOPページ内で唯一「動き」を表現できるものであり、静止画よりも注目を集めやすく広告効果が高いアイテムであるため、いかにユーザーの視線を向けられるかを意識して制作しています。<br>また、約30秒という尺でも飽きさせないよう、単調な展開を避け最後まで見てもらう工夫を施しています。<br>楽曲の使用は制限があり音楽は流せませんでしたが、ご共有頂けるアーティスト写真とジャケット写真から、曲調に合わせた最適なビデオコンセプトを組み立てて30秒の動画に仕上げています。<br>バラードの楽曲紹介ムービーの場合はゆっくりと、デビューして間もない場合はアーティスト名も紹介するなど都度アーティストの背景に合わせた構成を心がけています。",
+      "details": [],
+      "additionalComments": ""
+    },
+    "the_rootless02": {
+      "year": "2011",
+      "role": "Art Direction / Illustration / Motion Graphics",
+      "duration": "2day-4day",
+      "tools": "After Effect / Illustrator / Photoshop",
+      "concept": "こちらのアイテムは、サイトのTOPページ内で唯一「動き」を表現できるものであり、静止画よりも注目を集めやすく広告効果が高いアイテムであるため、いかにユーザーの視線を向けられるかを意識して制作しています。<br>また、約30秒という尺でも飽きさせないよう、単調な展開を避け最後まで見てもらう工夫を施しています。<br>楽曲の使用は制限があり音楽は流せませんでしたが、ご共有頂けるアーティスト写真とジャケット写真から、曲調に合わせた最適なビデオコンセプトを組み立てて30秒の動画に仕上げています。<br>バラードの楽曲紹介ムービーの場合はゆっくりと、デビューして間もない場合はアーティスト名も紹介するなど都度アーティストの背景に合わせた構成を心がけています。",
+      "details": [],
+      "additionalComments": ""
+    },
+    "wine": {
+      "year": "2014",
+      "role": "Logo Design",
+      "duration": "2day",
+      "tools": "Illustrator",
+      "concept": "屋号が持つ「和とイタリアンの融合」という特徴を、視覚的にも直感的に伝えることをコンセプトとしています。 <br>ワイングラスをベースにダイニングを象徴するフォークのモチーフを組み合わせることで、“ワインを主軸に食事と空間を楽しむ店”であることを表現しました。<br>クライアント様からは「ワイングラスのイラストの使用」や「イタリアンバルらしい欧州的なデザイン」、また「内装に合わせた大正ロマン的な要素」があると好ましいといったご要望を頂いておりましたので、グラスとフォークを掛け合わせることで単なるバーではなく「dining」であることを連想させつつ、フォントには大正ロマンを思わせる優雅で装飾的な曲線を用いています。<br>また、ワインを想起させる深みのある赤をアクセントカラーに採用し、落ち着きと上質さを持たせつつ、視認性を確保できる配色に仕上げました。",
+      "details": [
+        "details_wine.jpg"
+      ],
+      "additionalComments": ""
+    }
+  }
+}

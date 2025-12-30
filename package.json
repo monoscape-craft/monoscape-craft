@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "fast-glob": "^3.3.3",
+    "footer": "^1.0.0",
+    "prettier": "^3.7.4",
+    "vite": "^7.2.4",
+    "vite-plugin-ejs": "^1.7.0",
+    "vite-plugin-imagemin": "^0.6.1"
+  },
+  "dependencies": {
+    "gsap": "^3.14.2"
+  }
+}
