@@ -77,7 +77,7 @@ const renderWorks = (data) => {
   const grid = document.getElementById('worksGrid');
   if (!grid) return;
 
-  const path = '/src/assets/images/top/';
+  const path = './src/assets/images/top/';
   
   let displayData;
   const savedOrder = sessionStorage.getItem('worksOrder');
@@ -113,7 +113,7 @@ const renderWorks = (data) => {
 
 const initTop = async () => {
   try {
-    const response = await fetch('/data/works.json');
+    const response = await fetch('./data/works.json');
     const json = await response.json();
     runOpening(); 
     renderWorks(json.worksData);

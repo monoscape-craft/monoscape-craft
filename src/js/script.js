@@ -107,7 +107,7 @@ const setupModalEvents = () => {
 
 const loadData = async () => {
   try {
-    const res = await fetch('/data/works.json');
+    const res = await fetch('./data/works.json');
     const data = await res.json();
     window.worksData = data.worksData;
     window.projectDetails = data.projectDetails;
