@@ -5,6 +5,7 @@ import fg from 'fast-glob';
 import { ViteEjsPlugin } from 'vite-plugin-ejs'; // 追加
 
 export default defineConfig({
+  base: '/monoscape-craft/',
   plugins: [
     ViteEjsPlugin(),
     viteImagemin({
