@@ -77,7 +77,7 @@ const renderWorks = (data) => {
   const grid = document.getElementById('worksGrid');
   if (!grid) return;
 
-  const path = './src/assets/images/top/';
+  const path = `${import.meta.env.BASE_URL}/images/top/`;
   
   let displayData;
   const savedOrder = sessionStorage.getItem('worksOrder');
@@ -100,7 +100,7 @@ const renderWorks = (data) => {
     const slug = item.id;
 
     return `
-      <a href="projects/projects.html?id=${slug}" class="work-card fade-in">
+      <a href="${import.meta.env.BASE_URL}projects/projects.html?id=${slug}" class="work-card fade-in">
         <div class="image-wrapper">${mediaHtml}</div>
         <div class="work-info">
           <h3>${item.title}</h3>
@@ -113,7 +113,7 @@ const renderWorks = (data) => {
 
 const initTop = async () => {
   try {
-    const response = await fetch('./data/works.json');
+    const response = await fetch(`${import.meta.env.BASE_URL}data/works.json`);
     const json = await response.json();
     runOpening(); 
     renderWorks(json.worksData);

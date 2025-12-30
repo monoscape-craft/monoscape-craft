@@ -37,8 +37,8 @@ const setupProjectDetail = () => {
 
     const heroContainer = document.getElementById('p-hero-container');
     const isVideo = basic.file.endsWith('.mp4');
-    const imgPath = '../src/assets/images/projects/';
-    const posterImgPath =  '../src/assets/images/top/';
+    const imgPath = `${import.meta.env.BASE_URL}/images/projects/`;
+    const posterImgPath = `${import.meta.env.BASE_URL}/images/top/`;
     const needsMockup = basic.category === 'Web Design' || basic.category === 'Web Development';
 
     heroContainer.className = needsMockup ? 'pc-mock-style' : '';
@@ -90,7 +90,7 @@ window.openModal = (fullPath, list = []) => {
 const renderModalContent = () => {
   const content = document.getElementById('modalContent');
   const file = currentImageList[currentIndex];
-  const path = `../src/assets/images/projects/${file}`; 
+  const path = `${import.meta.env.BASE_URL}/images/projects/${file}`; 
   content.innerHTML = file.endsWith('.mp4') ? `<video src="${path}" controls autoplay></video>` : `<img src="${path}">`;
 };
 
@@ -107,8 +107,8 @@ const setupModalEvents = () => {
 
 const loadData = async () => {
   try {
-    const res = await fetch('./data/works.json');
-    const data = await res.json();
+    const response = await fetch(`${import.meta.env.BASE_URL}data/works.json`);
+    const data = await response.json();
     window.worksData = data.worksData;
     window.projectDetails = data.projectDetails;
     initApp();
