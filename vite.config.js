@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import { resolve, relative, extname } from 'path';
 import viteImagemin from 'vite-plugin-imagemin';
 import fg from 'fast-glob';
-import { ViteEjsPlugin } from 'vite-plugin-ejs'; // 追加
+import { ViteEjsPlugin } from 'vite-plugin-ejs';
 
 export default defineConfig({
   base: '/monoscape-craft/',
@@ -23,7 +23,6 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      // fg.sync() として呼び出す
       input: Object.fromEntries(
         fg.sync(['./**/*.html'], { ignore: ['node_modules/**', 'dist/**'] }).map(file => [
           relative(__dirname, file).slice(0, -extname(file).length),
