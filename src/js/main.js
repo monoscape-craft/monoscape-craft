@@ -1,5 +1,12 @@
 import { gsap } from "gsap";
 
+const topImages = import.meta.glob('../assets/images/top/*.{jpg,png,mp4}', { eager: true, as: 'url' });
+
+const getTopAssetUrl = (fileName) => {
+  const key = `../assets/images/top/${fileName}`;
+  return topImages[key] || '';
+};
+
 const runOpening = () => {
   const layer = document.getElementById('opening-layer');
   const textField = document.getElementById('opening-text');
@@ -77,7 +84,7 @@ const renderWorks = (data) => {
   const grid = document.getElementById('worksGrid');
   if (!grid) return;
 
-  const path = `${import.meta.env.BASE_URL}/images/top/`;
+  // const path = `${import.meta.env.BASE_URL}/images/top/`;
   
   let displayData;
   const savedOrder = sessionStorage.getItem('worksOrder');
@@ -92,11 +99,17 @@ const renderWorks = (data) => {
   }
 
   grid.innerHTML = displayData.map(item => {
+    // const isVideo = item.file.endsWith('.mp4');
+    // const posterName = item.file.replace('thumb_', 'poster_').replace('.mp4', '.jpg');
+    // const mediaHtml = isVideo 
+    //   ? `<video src="${path}${item.file}" poster="${path}${posterName}" muted playsinline autoplay loop></video>`
+    //   : `<img src="${path}${item.file}" alt="${item.title}">`;
     const isVideo = item.file.endsWith('.mp4');
     const posterName = item.file.replace('thumb_', 'poster_').replace('.mp4', '.jpg');
+
     const mediaHtml = isVideo 
-      ? `<video src="${path}${item.file}" poster="${path}${posterName}" muted playsinline autoplay loop></video>`
-      : `<img src="${path}${item.file}" alt="${item.title}">`;
+      ? `<video src="${getTopAssetUrl(item.file)}" poster="${getTopAssetUrl(posterName)}" muted playsinline autoplay loop></video>`
+      : `<img src="${getTopAssetUrl(item.file)}" alt="${item.title}">`;
     const slug = item.id;
 
     return `

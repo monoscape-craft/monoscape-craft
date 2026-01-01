@@ -1,3 +1,10 @@
+const projectImages = import.meta.glob('../assets/images/projects/*.{jpg,png,mp4}', { eager: true, as: 'url' });
+
+const getAssetUrl = (fileName) => {
+  const key = `../assets/images/${fileName}`;
+  return projectImages[key] || ''; 
+};
+
 const observeScroll = () => {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -37,19 +44,26 @@ const setupProjectDetail = () => {
 
     const heroContainer = document.getElementById('p-hero-container');
     const isVideo = basic.file.endsWith('.mp4');
-    const imgPath = `${import.meta.env.BASE_URL}/images/projects/`;
-    const posterImgPath = `${import.meta.env.BASE_URL}/images/top/`;
+    // const imgPath = `${import.meta.env.BASE_URL}/images/projects/`;
+    // const posterImgPath = `${import.meta.env.BASE_URL}/images/top/`;
     const needsMockup = basic.category === 'Web Design' || basic.category === 'Web Development';
 
     heroContainer.className = needsMockup ? 'pc-mock-style' : '';
     heroContainer.style = needsMockup ? '' : 'background:transparent; padding:0; aspect-ratio:auto; box-shadow:none;';
     
+    // const fileName = basic.file.replace(/poster_|thumb_/g, "");
+    // if (isVideo) {
+    //   const poster = basic.file.replace('thumb_', 'poster_').replace('.mp4', '.jpg');
+    //   heroContainer.innerHTML = `<video src="${imgPath}${fileName}" poster="${posterImgPath}${poster}" controls playsinline muted></video>`;
+    // } else {
+    //   heroContainer.innerHTML = `<img src="${imgPath}${fileName}" alt="${basic.title}">`;
+    // }
     const fileName = basic.file.replace(/poster_|thumb_/g, "");
     if (isVideo) {
       const poster = basic.file.replace('thumb_', 'poster_').replace('.mp4', '.jpg');
-      heroContainer.innerHTML = `<video src="${imgPath}${fileName}" poster="${posterImgPath}${poster}" controls playsinline muted></video>`;
+      heroContainer.innerHTML = `<video src="${getAssetUrl(`projects/${fileName}`)}" poster="${getAssetUrl(`top/${poster}`)}" controls playsinline muted></video>`;
     } else {
-      heroContainer.innerHTML = `<img src="${imgPath}${fileName}" alt="${basic.title}">`;
+      heroContainer.innerHTML = `<img src="${getAssetUrl(`projects/${fileName}`)}" alt="${basic.title}">`;
     }
 
     const slider = document.getElementById('p-detail-slider');
@@ -58,17 +72,31 @@ const setupProjectDetail = () => {
 
     if (detail.details?.[0]) {
       slider.innerHTML = detail.details.map(file => {
-        const fileName = file.trim();
-        const fullPath = `${imgPath}${fileName}`;
-        const isVideoFile = fileName.endsWith('.mp4'); // 動画判定
-        const posterPath = isVideoFile ? `${imgPath}${fileName.replace(/\.mp4$/, '.jpg')}` : fullPath;
+        // const fileName = file.trim();
+        // const fullPath = `${imgPath}${fileName}`;
+        // const isVideoFile = fileName.endsWith('.mp4');
+        // const posterPath = isVideoFile ? `${imgPath}${fileName.replace(/\.mp4$/, '.jpg')}` : fullPath;
         
+        // return `
+        //   <div class="concept-item ${isVideoFile ? 'is-video' : ''}" onclick='openModal("${fullPath}", ${JSON.stringify(detail.details)})'>
+        //     ${isVideoFile 
+        //       ? `<video src="${fullPath}" poster="${posterPath}" muted playsinline></video>
+        //          <div class="play-icon"></div>` 
+        //       : `<img src="${fullPath}">`
+        //     }
+        //     <div class="thumb-info"><span>Zoom</span></div>
+        //   </div>`;
+        const fileName = file.trim();
+        const assetPath = getAssetUrl(`projects/${fileName}`); // ここで解決
+        const isVideoFile = fileName.endsWith('.mp4');
+        const posterPath = isVideoFile ? getAssetUrl(`projects/${fileName.replace(/\.mp4$/, '.jpg')}`) : assetPath;
+
         return `
-          <div class="concept-item ${isVideoFile ? 'is-video' : ''}" onclick='openModal("${fullPath}", ${JSON.stringify(detail.details)})'>
+          <div class="concept-item ${isVideoFile ? 'is-video' : ''}" onclick='openModal("${fileName}", ${JSON.stringify(detail.details)})'>
             ${isVideoFile 
-              ? `<video src="${fullPath}" poster="${posterPath}" muted playsinline></video>
-                 <div class="play-icon"></div>` 
-              : `<img src="${fullPath}">`
+              ? `<video src="${assetPath}" poster="${posterPath}" muted playsinline></video>
+                <div class="play-icon"></div>` 
+              : `<img src="${assetPath}">`
             }
             <div class="thumb-info"><span>Zoom</span></div>
           </div>`;
@@ -89,8 +117,11 @@ window.openModal = (fullPath, list = []) => {
 
 const renderModalContent = () => {
   const content = document.getElementById('modalContent');
+  // const file = currentImageList[currentIndex];
+  // const path = `${import.meta.env.BASE_URL}/images/projects/${file}`; 
+  // content.innerHTML = file.endsWith('.mp4') ? `<video src="${path}" controls autoplay></video>` : `<img src="${path}">`;
   const file = currentImageList[currentIndex];
-  const path = `${import.meta.env.BASE_URL}/images/projects/${file}`; 
+  const path = getAssetUrl(`projects/${file}`);
   content.innerHTML = file.endsWith('.mp4') ? `<video src="${path}" controls autoplay></video>` : `<img src="${path}">`;
 };
 

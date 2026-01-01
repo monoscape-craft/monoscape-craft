@@ -7,6 +7,18 @@
       "category": "Web Graphics / Promotion Banner"
     },
     {
+      "id": "kaiju",
+      "file": "thumb_kaiju.jpg",
+      "title": "アパレル企業特集ページ制作",
+      "category": "Web Development"
+    },
+    {
+      "id": "the-rootless01",
+      "file": "thumb_the-rootless01.mp4",
+      "title": "アーティスト販促ムービーアーカイブ",
+      "category": "Motion Graphics"
+    },
+    {
       "id": "banner-archive",
       "file": "thumb_banner-archive.jpg",
       "title": "アーティストバナー制作アーカイブ",
@@ -17,12 +29,6 @@
       "file": "thumb_boatpier-miyaki.jpg",
       "title": "ボートレースチケットショップサイト制作",
       "category": "Web Development"
-    },
-    {
-      "id": "deep",
-      "file": "thumb_deep.mp4",
-      "title": "アーティスト販促ムービー",
-      "category": "Motion Graphics"
     },
     {
       "id": "dfh",
@@ -37,34 +43,10 @@
       "category": "Web Development"
     },
     {
-      "id": "gekidan-hana",
-      "file": "thumb_gekidan-hana.mp4",
-      "title": "アーティスト販促ムービー",
-      "category": "Motion Graphics"
-    },
-    {
       "id": "gstage",
       "file": "thumb_gstage.jpg",
       "title": "企業ロゴ制作",
       "category": "Logo Design"
-    },
-    {
-      "id": "happiness",
-      "file": "thumb_happiness.mp4",
-      "title": "アーティスト販促ムービー",
-      "category": "Motion Graphics"
-    },
-    {
-      "id": "love01",
-      "file": "thumb_love01.mp4",
-      "title": "アーティスト販促ムービー",
-      "category": "Motion Graphics"
-    },
-    {
-      "id": "love02",
-      "file": "thumb_love02.mp4",
-      "title": "アーティスト販促ムービー",
-      "category": "Motion Graphics"
     },
     {
       "id": "mugir-new",
@@ -83,18 +65,6 @@
       "file": "thumb_skullcute.jpg",
       "title": "企業ロゴ制作",
       "category": "Logo Design"
-    },
-    {
-      "id": "the_rootless01",
-      "file": "thumb_the_rootless01.mp4",
-      "title": "アーティスト販促ムービー",
-      "category": "Motion Graphics"
-    },
-    {
-      "id": "the_rootless02",
-      "file": "thumb_the_rootless02.mp4",
-      "title": "アーティスト販促ムービー",
-      "category": "Motion Graphics"
     },
     {
       "id": "wine",
@@ -116,6 +86,34 @@
         "details_aigra-ririan.jpg",
         "details_aigra-tani.jpg",
         "details_aigra-yoshizawa.jpg"
+      ],
+      "additionalComments": "こちらに掲載している制作物は一部となります。この他にもご覧になりたい場合は、コンタクトよりお気軽にお声がけいただけますと幸いです。"
+    },
+    "kaiju": {
+      "year": "2024",
+      "role": "Frontend / Development",
+      "duration": "1week",
+      "tools": "HTML / CSS / JavaScript / Pug /",
+      "concept": "アパレルブランドの特集ページの実装を担当しました。<br>初回アクセス時には、ブランド独自の世界観を瞬時に印象付けるオープニングムービーを配置。ユーザーをスムーズにコンテンツへと誘い、視覚的な没入感を高めています。オープニングムービーはリピート訪問時の利便性を考慮し、localStorageを用いたフラグ管理によって表示回数を最適化するなど、ユーザー体験を損なわない配慮を施しました。<br>要素が視界に入るタイミングで背景や画像がリズムよく出現するような効果を施し、過度な負荷を避けつつも「次へ」とスクロールしたくなる期待感を持たせる工夫をしました。<br><br>さらに、大量のビジュアルを扱う中でページ速度を維持するため、画像にはLazy Loadを適用。結果、読了率およびクリック率・CVRに好調な数値を記録し、高いプロモーション効果を実現しました。",
+      "details": [
+        "ssmovie_kaiju.mp4"
+      ],
+      "additionalComments": ""
+    },
+    "the-rootless01": {
+      "year": "2011",
+      "role": "Art Direction / Illustration / Motion Graphics",
+      "duration": "2day-4day",
+      "tools": "After Effect / Illustrator / Photoshop",
+      "concept": "こちらのアイテムは、サイトのTOPページ内で唯一「動き」を表現できるものであり、静止画よりも注目を集めやすく広告効果が高いアイテムであるため、いかにユーザーの視線を向けられるかを意識して制作しています。<br>また、約30秒という尺でも飽きさせないよう、単調な展開を避け最後まで見てもらう工夫を施しています。<br>楽曲の使用は制限があり音楽は流せませんでしたが、ご共有頂けるアーティスト写真とジャケット写真から、曲調に合わせた最適なビデオコンセプトを組み立てて30秒の動画に仕上げています。<br>バラードの楽曲紹介ムービーの場合はゆっくりと、デビューして間もない場合はアーティスト名も紹介するなど都度アーティストの背景に合わせた構成を心がけています。",
+      "details": [
+        "the-rootless01.mp4",
+        "love01.mp4",
+        "deep.mp4",
+        "the-rootless02.mp4",
+        "love02.mp4",
+        "gekidan-hana.mp4",
+        "happiness.mp4"
       ],
       "additionalComments": "こちらに掲載している制作物は一部となります。この他にもご覧になりたい場合は、コンタクトよりお気軽にお声がけいただけますと幸いです。"
     },
@@ -165,15 +163,6 @@
       ],
       "additionalComments": ""
     },
-    "deep": {
-      "year": "2011",
-      "role": "Art Direction / Illustration / Motion Graphics",
-      "duration": "2day-4day",
-      "tools": "After Effect / Illustrator / Photoshop",
-      "concept": "こちらのアイテムは、サイトのTOPページ内で唯一「動き」を表現できるものであり、静止画よりも注目を集めやすく広告効果が高いアイテムであるため、いかにユーザーの視線を向けられるかを意識して制作しています。<br>また、約30秒という尺でも飽きさせないよう、単調な展開を避け最後まで見てもらう工夫を施しています。<br>楽曲の使用は制限があり音楽は流せませんでしたが、ご共有頂けるアーティスト写真とジャケット写真から、曲調に合わせた最適なビデオコンセプトを組み立てて30秒の動画に仕上げています。<br>バラードの楽曲紹介ムービーの場合はゆっくりと、デビューして間もない場合はアーティスト名も紹介するなど都度アーティストの背景に合わせた構成を心がけています。",
-      "details": [],
-      "additionalComments": ""
-    },
     "dfh": {
       "year": "2014",
       "role": "Web Design / Frontend / Development",
@@ -197,15 +186,6 @@
       ],
       "additionalComments": ""
     },
-    "gekidan-hana": {
-      "year": "2010",
-      "role": "Art Direction / Illustration / Motion Graphics",
-      "duration": "2day-4day",
-      "tools": "After Effect / Illustrator / Photoshop",
-      "concept": "こちらのアイテムは、サイトのTOPページ内で唯一「動き」を表現できるものであり、静止画よりも注目を集めやすく広告効果が高いアイテムであるため、いかにユーザーの視線を向けられるかを意識して制作しています。<br>また、約30秒という尺でも飽きさせないよう、単調な展開を避け最後まで見てもらう工夫を施しています。<br>楽曲の使用は制限があり音楽は流せませんでしたが、ご共有頂けるアーティスト写真とジャケット写真から、曲調に合わせた最適なビデオコンセプトを組み立てて30秒の動画に仕上げています。<br>バラードの楽曲紹介ムービーの場合はゆっくりと、デビューして間もない場合はアーティスト名も紹介するなど都度アーティストの背景に合わせた構成を心がけています。",
-      "details": [],
-      "additionalComments": ""
-    },
     "gstage": {
       "year": "2016",
       "role": "Logo Design",
@@ -215,33 +195,6 @@
       "details": [
         "details_gstage.jpg"
       ],
-      "additionalComments": ""
-    },
-    "happiness": {
-      "year": "2011",
-      "role": "Art Direction / Illustration / Motion Graphics",
-      "duration": "2day-4day",
-      "tools": "After Effect / Illustrator / Photoshop",
-      "concept": "こちらのアイテムは、サイトのTOPページ内で唯一「動き」を表現できるものであり、静止画よりも注目を集めやすく広告効果が高いアイテムであるため、いかにユーザーの視線を向けられるかを意識して制作しています。<br>また、約30秒という尺でも飽きさせないよう、単調な展開を避け最後まで見てもらう工夫を施しています。<br>楽曲の使用は制限があり音楽は流せませんでしたが、ご共有頂けるアーティスト写真とジャケット写真から、曲調に合わせた最適なビデオコンセプトを組み立てて30秒の動画に仕上げています。<br>バラードの楽曲紹介ムービーの場合はゆっくりと、デビューして間もない場合はアーティスト名も紹介するなど都度アーティストの背景に合わせた構成を心がけています。",
-      "details": [],
-      "additionalComments": ""
-    },
-    "love01": {
-      "year": "2011",
-      "role": "Art Direction / Illustration / Motion Graphics",
-      "duration": "2day-4day",
-      "tools": "After Effect / Illustrator / Photoshop",
-      "concept": "こちらのアイテムは、サイトのTOPページ内で唯一「動き」を表現できるものであり、静止画よりも注目を集めやすく広告効果が高いアイテムであるため、いかにユーザーの視線を向けられるかを意識して制作しています。<br>また、約30秒という尺でも飽きさせないよう、単調な展開を避け最後まで見てもらう工夫を施しています。<br>楽曲の使用は制限があり音楽は流せませんでしたが、ご共有頂けるアーティスト写真とジャケット写真から、曲調に合わせた最適なビデオコンセプトを組み立てて30秒の動画に仕上げています。<br>バラードの楽曲紹介ムービーの場合はゆっくりと、デビューして間もない場合はアーティスト名も紹介するなど都度アーティストの背景に合わせた構成を心がけています。",
-      "details": [],
-      "additionalComments": ""
-    },
-    "love02": {
-      "year": "2010",
-      "role": "Art Direction / Illustration / Motion Graphics",
-      "duration": "2day-4day",
-      "tools": "After Effect / Illustrator / Photoshop",
-      "concept": "こちらのアイテムは、サイトのTOPページ内で唯一「動き」を表現できるものであり、静止画よりも注目を集めやすく広告効果が高いアイテムであるため、いかにユーザーの視線を向けられるかを意識して制作しています。<br>また、約30秒という尺でも飽きさせないよう、単調な展開を避け最後まで見てもらう工夫を施しています。<br>楽曲の使用は制限があり音楽は流せませんでしたが、ご共有頂けるアーティスト写真とジャケット写真から、曲調に合わせた最適なビデオコンセプトを組み立てて30秒の動画に仕上げています。<br>バラードの楽曲紹介ムービーの場合はゆっくりと、デビューして間もない場合はアーティスト名も紹介するなど都度アーティストの背景に合わせた構成を心がけています。",
-      "details": [],
       "additionalComments": ""
     },
     "mugir-new": {
@@ -284,24 +237,6 @@
       "details": [
         "details_skullcute.jpg"
       ],
-      "additionalComments": ""
-    },
-    "the_rootless01": {
-      "year": "2010",
-      "role": "Art Direction / Illustration / Motion Graphics",
-      "duration": "2day-4day",
-      "tools": "After Effect / Illustrator / Photoshop",
-      "concept": "こちらのアイテムは、サイトのTOPページ内で唯一「動き」を表現できるものであり、静止画よりも注目を集めやすく広告効果が高いアイテムであるため、いかにユーザーの視線を向けられるかを意識して制作しています。<br>また、約30秒という尺でも飽きさせないよう、単調な展開を避け最後まで見てもらう工夫を施しています。<br>楽曲の使用は制限があり音楽は流せませんでしたが、ご共有頂けるアーティスト写真とジャケット写真から、曲調に合わせた最適なビデオコンセプトを組み立てて30秒の動画に仕上げています。<br>バラードの楽曲紹介ムービーの場合はゆっくりと、デビューして間もない場合はアーティスト名も紹介するなど都度アーティストの背景に合わせた構成を心がけています。",
-      "details": [],
-      "additionalComments": ""
-    },
-    "the_rootless02": {
-      "year": "2011",
-      "role": "Art Direction / Illustration / Motion Graphics",
-      "duration": "2day-4day",
-      "tools": "After Effect / Illustrator / Photoshop",
-      "concept": "こちらのアイテムは、サイトのTOPページ内で唯一「動き」を表現できるものであり、静止画よりも注目を集めやすく広告効果が高いアイテムであるため、いかにユーザーの視線を向けられるかを意識して制作しています。<br>また、約30秒という尺でも飽きさせないよう、単調な展開を避け最後まで見てもらう工夫を施しています。<br>楽曲の使用は制限があり音楽は流せませんでしたが、ご共有頂けるアーティスト写真とジャケット写真から、曲調に合わせた最適なビデオコンセプトを組み立てて30秒の動画に仕上げています。<br>バラードの楽曲紹介ムービーの場合はゆっくりと、デビューして間もない場合はアーティスト名も紹介するなど都度アーティストの背景に合わせた構成を心がけています。",
-      "details": [],
       "additionalComments": ""
     },
     "wine": {
